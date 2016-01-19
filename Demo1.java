@@ -11,5 +11,7 @@ public class Demo1 {
         List<String> list = Arrays.asList(new String[]{"aaa","bbb","ccc"});
         String result = BuildString.buildString(list,",");
         System.out.print(result);
+		
+		System.out.print("haha");
     }
 }
